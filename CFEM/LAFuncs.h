@@ -44,7 +44,7 @@ class VECTOR
 	// the "friend" keyword is often used with these function meaning that the function can access "private" data members of the function.
 	// This makes writing these functions easier as they often need to access all class members.
 	friend istream& operator>>(istream& in, VECTOR& dat);
-	// const keywork means dat that is sent to the function cannot be changed. It's a good programming practice to use the keyword const for data members that are not supposed to be changed.
+	// const keyword means dat that is sent to the function cannot be changed. It's a good programming practice to use the keyword const for data members that are not supposed to be changed.
 	friend ostream& operator<<(ostream& out, const VECTOR& dat);
 
 // keyword public means that functions and members after the keyword can be access every where
